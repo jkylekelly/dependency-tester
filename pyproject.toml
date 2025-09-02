@@ -1,0 +1,9 @@
+[project]
+name = "dependency-tester"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "tensorflow==2.8.4",
+]
