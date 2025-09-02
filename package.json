@@ -1,0 +1,25 @@
+{
+  "name": "js-input-sanitization-poc",
+  "version": "1.0.0",
+  "description": "Proof-of-concepts for JavaScript input sanitization using different third-party packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-all-pocs.js",
+    "poc1": "node poc1-dompurify.js",
+    "poc2": "node poc2-validator.js",
+    "poc3": "node poc3-xss.js",
+    "poc4": "node poc4-sanitize-html.js",
+    "poc5": "node poc5-escape-html.js"
+  },
+  "keywords": ["sanitization", "security", "input-validation", "xss", "html"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dompurify": "^3.0.8",
+    "validator": "^13.11.0",
+    "xss": "^1.0.15",
+    "sanitize-html": "^2.12.1",
+    "escape-html": "^1.0.3",
+    "jsdom": "^24.0.0"
+  }
+}
