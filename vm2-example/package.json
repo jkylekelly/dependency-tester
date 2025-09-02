@@ -1,0 +1,16 @@
+{
+  "name": "vm2-example",
+  "version": "1.0.0",
+  "description": "Simple example demonstrating vm2 npm library usage for running untrusted code in a sandbox",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vm2", "sandbox", "security", "example"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vm2": "^3.9.19"
+  }
+}
