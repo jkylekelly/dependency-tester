@@ -1,0 +1,26 @@
+{
+  "name": "dependency-tester",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node demo.js",
+    "demo:dompurify": "node sanitization-examples/1-dompurify-poc.js",
+    "demo:validator": "node sanitization-examples/2-validator-poc.js",
+    "demo:xss": "node sanitization-examples/3-xss-poc.js",
+    "demo:sanitize-html": "node sanitization-examples/4-sanitize-html-poc.js",
+    "demo:escape-html": "node sanitization-examples/5-escape-html-poc.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dompurify": "^3.1.7",
+    "escape-html": "^1.0.3",
+    "jsdom": "^26.1.0",
+    "sanitize-html": "^2.13.0",
+    "validator": "^13.12.0",
+    "xss": "^1.0.15"
+  }
+}
